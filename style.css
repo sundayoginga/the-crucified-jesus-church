@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #D4AF37;
+}
+
+.logo {
+    color: #1746A2;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1746A2;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D4AF37;
+}
+
+section {
+    padding: 70px 8%;
+}
+#home {
+    background:
+        linear-gradient(
+            rgba(10, 35, 90, 0.70),
+            rgba(10, 35, 90, 0.75)
+        ),
+        url("Image/church 1.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1746A2;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #D4AF37;
+    color: #102B5C;
+    border: none;
+    padding: 14px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background: #102B5C;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #1746A2;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+#home a {
+    color: #D4AF37;
+    font-weight: bold;
+    text-decoration: none;
+}

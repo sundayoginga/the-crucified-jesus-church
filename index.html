@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Crucified Jesus Church</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+    <img src="LOGO-removebg-preview.png"
+         alt="The Crucified Jesus Church Logo">
+    <span>THE CRUCIFIED JESUS CHURCH</span>
+</div>
+    
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#ministries">Ministries</a>
+            <a href="#events">Events</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO</p>
+
+            <h1>THE CRUCIFIED<br>JESUS CHURCH</h1>
+
+            <p>
+                Jesus Christ and Him crucified.
+                A place of faith, prayer, worship and transformation.
+            </p>
+
+            <a href="#about" class="btn">DISCOVER OUR CHURCH</a>
+
+        </div>
+
+    </section>
+
+    <section id="about">
+
+        <h2>WHO WE ARE</h2>
+
+        <p>
+            The Crucified Jesus Church is a Christian ministry
+            committed to preaching the Gospel of Jesus Christ,
+            nurturing believers and spreading the message of
+            salvation through the Word of God.
+        </p>
+
+        <p>
+            Our foundation is 1 Corinthians 2:2:
+            "For I determined not to know anything among you
+            except Jesus Christ and Him crucified."
+        </p>
+
+    </section>
+
+    <section id="ministries">
+
+        <h2>OUR MINISTRIES</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Youth Ministry</h3>
+                <p>Raising young people grounded in Christ.</p>
+            </div>
+
+            <div class="card">
+                <h3>Women's Ministry</h3>
+                <p>Building women through faith, prayer and fellowship.</p>
+            </div>
+
+            <div class="card">
+                <h3>Intercessors</h3>
+                <p>Standing in prayer for the church and nations.</p>
+            </div>
+
+            <div class="card">
+                <h3>Worship Ministry</h3>
+                <p>Serving God through praise and worship.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="events">
+
+        <h2>CHURCH EVENTS</h2>
+
+        <p>
+            Join us for worship services, Bible studies,
+            prayer meetings, conferences and special gatherings.
+        </p>
+
+        <p>Come and fellowship with us!</p>
+
+    </section>
+
+    <section class="scripture">
+
+        <h2>OUR FOUNDATION</h2>
+
+        <p>
+            "For I determined not to know anything among you,
+            except Jesus Christ and Him crucified."
+        </p>
+
+        <strong>1 Corinthians 2:2</strong>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>CONNECT WITH US</h2>
+
+        <p>Phone: 0796379481</p>
+
+        <p>Email: thecrucifiedjeuschurch@gmail.com</p>
+
+        <p>Location: Maringo Estate, along Jogoo Road, Nairobi.</p>
+
+        <a href="https://wa.me/0116723329" class="btn">
+            CONTACT US ON WHATSAPP
+        </a>
+
+    </section>
+
+    <footer>
+
+        <h3>THE CRUCIFIED JESUS CHURCH</h3>
+
+        <p>Jesus Christ and Him crucified.</p>
+
+        <p>© 2026 The Crucified Jesus Church. All rights reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+style.css
+
+:root {
+    --royal-blue: #2454B8;
+    --gold: #D4AF37;
+    --white: #FFFFFF;
+    --light-blue: #F1F5FC;
+    --dark-blue: #102B5C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background: #ffffff;
+    line-height: 1.7;
+}
+header {
+    background: var(--white);
+    color: var(--royal-blue);
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 10px #ddd;
+}
+
+.church-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.church-brand img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.church-brand h2 {
+    color: var(--royal-blue);
+    font-size: 18px;
+}
+
+.church-brand p {
+    color: var(--gold);
+    font-size: 13px;
+}
+
+nav a {
+    color: var(--royal-blue);
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--gold);
+}
+
+
+.hero {
+    min-height: 550px;
+    background: linear-gradient(
+        rgba(5, 12, 25, 0.75),
+        rgba(5, 12, 25, 0.75)
+    ),
+    url("https://images.unsplash.com/photo-1507692049790-de58290a4334?w=1600");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.welcome {
+    color: #d9b568;
+    letter-spacing: 4px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--dark-blue);
+    padding: 13px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+section:not(.hero) {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #142440;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #f3f5f8;
+    padding: 30px;
+    border-radius: 8px;
+    width: 230px;
+}
+
+.card h3 {
+    color: #b38b3c;
+    margin-bottom: 12px;
+}
+
+.scripture {
+    background: #101a2b;
+    color: white;
+}
+
+.scripture h2 {
+    color: #d9b568;
+}
+
+.scripture p {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.scripture strong {
+    color: #d9b568;
+}
+
+footer {
+    background: #080e19;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+script.js
+console.log("Welcome to The Crucified Jesus Church website!");
